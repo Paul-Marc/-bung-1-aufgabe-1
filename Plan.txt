@@ -1,0 +1,73 @@
+Blatt 1 Aufgabe 1: Paul Conrad 358940, Marc Palfner 359899 
+
+EVA-Prinzip:
+
+- Eingabe:
+Es erfolgt keine Eingabe seitens Anwender. Informationen außer Zieltext werden
+zur Durchführung des Algorithmus nicht benötigt.
+
+- Verarbeitung:
+Der Zieltext muss über eine Ausgabefunktion dem Benutzer dargestellt werden
+
+- Ausgabe:
+Die Ausgabe ist folgender Zieltext:
+Taschenrechner
+Was moechten Sie tun?
+  <a> - Addieren
+  <b> - Subtrahieren
+  <c> - Multiplizieren
+  <d> - Dividieren
+  Abbruch mit jedem anderen Zeichen.
+
+
+
+
+0. Verfeinerung  
+
+/*< Konsole zeigt folgenden Text: "Taschenrechner" >*/
+/*< Konsole zeigt folgenden Text: "Was moechten Sie tun?" >*/
+/*< Konsole zeigt folgenden Text: "  <a> - Addieren" >*/
+/*< Konsole zeigt folgenden Text: "  <b> - Subtrahieren" >*/
+/*< Konsole zeigt folgenden Text: "  <c> - Multiplizieren" >*/
+/*< Konsole zeigt folgenden Text: "  <d> - Dividieren" >*/
+/*< Konsole zeigt folgenden Text: "  Abbruch mit jedem anderen Zeichen." >*/
+
+
+1. Verfeinerung
+
+Idee:
+Ich benutze die Java-Anweisung System.out.println(); um die einzelnen Zeilen
+auszugeben. 
+
+System.out.println("Taschenrechner");
+System.out.println("Was moechten Sie tun?");
+System.out.println("  <a> - Addieren");
+System.out.println("  <b> - Subtrahieren");
+System.out.println("  <c> - Multiplizieren");
+System.out.println("  <d> - Dividieren");
+System.out.println("  Abbruch mit jedem anderen Zeichen.");
+
+
+2. Verfeinerung
+
+Idee:
+Nun vervollständige ich den Code mit der public class und public static void 
+main Anweisung.
+
+
+public class Rechner{
+
+public static void main(String[] args) {
+
+System.out.println("Taschenrechner");
+System.out.println("Was moechten Sie tun?");
+System.out.println("  <a> - Addieren");
+System.out.println("  <b> - Subtrahieren");
+System.out.println("  <c> - Multiplizieren");
+System.out.println("  <d> - Dividieren");
+System.out.println("  Abbruch mit jedem anderen Zeichen.");
+
+}
+
+}
+
