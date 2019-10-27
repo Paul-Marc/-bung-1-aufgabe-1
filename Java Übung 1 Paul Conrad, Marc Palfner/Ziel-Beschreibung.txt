@@ -1,0 +1,13 @@
+Blatt 1 Aufgabe 1: Paul Conrad 358940, Marc Palfner 359899 
+
+Folgende Ausgabe soll dem Anwender angezeigt werden:
+
+Taschenrechner
+Was moechten Sie tun?
+  <a> - Addieren
+  <b> - Subtrahieren
+  <c> - Multiplizieren
+  <d> - Dividieren
+  Abbruch mit jedem anderen Zeichen.
+
+
